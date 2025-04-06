@@ -1,0 +1,187 @@
+header{
+    display: grid;
+    background-color: rgb(255, 255, 255);
+    height: 70px;
+    width: 100%;
+    box-shadow: 0px 2px 14px 0px #A5A5A540;
+    grid-template-columns: auto auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    /* background-color: rgb(255, 255, 255); */
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    margin-top: 20px;
+
+}
+h1 img:first-child{
+    
+    height: 25px;
+    padding-left: 60px;
+    
+}
+h1 img:last-child{
+    
+    height: 25px;
+    
+    
+}
+nav{
+    margin-left: 40%;
+    margin-top: 25px;
+
+}
+nav a{
+
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+    font-weight: 100;
+    padding-left: 15px;
+    transition: 0.5s ease-in-out;
+}
+nav a:hover{
+    color: #99182A;
+    
+}
+
+.section1{
+    height: 436px;
+    /* background-image: url("Rectangle\ 9.png"); */
+    text-align: center;
+    background-size: cover;
+    color: white;
+    
+    
+    /* background-color: #99182A; */
+
+}
+
+.us{
+    font-size: 60px;
+    padding-top: 180px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #99182A;
+
+    
+}
+
+.section5{
+    display: grid;
+    grid-template-columns: auto auto;
+    /* padding-left: 120px; */
+
+}
+.meet{
+    padding: 130px;
+    
+
+}
+.meet img{
+    width: 270px;
+    height: 270px;
+
+}
+.moyo{
+   font-size : 40px;
+
+
+}
+.moyo1{
+    text-align: left;
+    width: 300px;
+    font-size : 15px;
+    opacity: 0.7;
+
+}
+
+
+.footer {
+    background-color: #000000;
+    color: white;
+    padding: 40px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer img{
+    width: 150px;
+    height: 30px;
+}
+
+.footer-container {
+    padding-left: 40px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    /* justify-content: space-around; */
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.footer-section h3 {
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: #99182A;
+    opacity: 0.6;
+}
+
+.footer-section ul {
+    list-style: none;
+    font-size: 12px;
+    opacity: 0.8;
+
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-section ul li a:hover {
+    color: #99182A;
+}
+
+.logofoot {
+    font-size: 15px;
+
+    padding-left: 30px;
+}
+.opaque{
+    opacity: 0.7;
+}
+
+.imts img{
+    height: 200px;
+   
+
+}
+
+.end{
+    padding-left: 30px;
+    font-size: 12px;
+    display: grid;
+    opacity: 0.5;
+    grid-template-columns: 800px auto;
+}
+.icons img{
+    width: 25px;
+    height: 25px;
+    opacity: 1;
+}
